@@ -3,8 +3,8 @@ from collections.abc import Mapping
 from functools import wraps
 from typing import Optional, Union, Callable, Dict, Any, cast
 
-from graphql.language import DocumentNode, OperationDefinitionNode, OperationType
-from graphql import GraphQLError, GraphQLType, parse
+from graphql3.language import DocumentNode, OperationDefinitionNode, OperationType
+from graphql3 import GraphQLError, GraphQLType, parse
 
 
 def convert_camel_case_to_snake(graphql_name: str) -> str:

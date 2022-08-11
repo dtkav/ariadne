@@ -12,7 +12,7 @@ from typing import (
     cast,
 )
 
-from graphql import (
+from graphql3 import (
     DocumentNode,
     ExecutionContext,
     ExecutionResult,
@@ -24,9 +24,9 @@ from graphql import (
     parse,
     subscribe as _subscribe,
 )
-from graphql.execution import MiddlewareManager
-from graphql.validation import specified_rules, validate
-from graphql.validation.rules import ASTValidationRule
+from graphql3.execution import MiddlewareManager
+from graphql3.validation import specified_rules, validate
+from graphql3.validation.rules import ASTValidationRule
 
 from .extensions import ExtensionManager
 from .format_error import format_error

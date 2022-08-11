@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from inspect import isawaitable
 from typing import Any, Optional
 
-from graphql import GraphQLSchema
+from graphql3 import GraphQLSchema
 from starlette.types import Receive, Scope, Send
 
 from ...format_error import format_error

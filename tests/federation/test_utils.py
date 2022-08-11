@@ -1,6 +1,6 @@
 from unittest.mock import Mock
 
-from graphql.utilities import strip_ignored_characters as sic
+from graphql3.utilities import strip_ignored_characters as sic
 
 from ariadne.contrib.federation import make_federated_schema
 from ariadne.contrib.federation.utils import (

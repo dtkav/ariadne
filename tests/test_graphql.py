@@ -1,6 +1,6 @@
 import pytest
-from graphql import GraphQLError
-from graphql.validation.rules import ValidationRule
+from graphql3 import GraphQLError
+from graphql3.validation.rules import ValidationRule
 
 from ariadne import graphql, graphql_sync, subscribe
 

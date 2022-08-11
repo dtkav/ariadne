@@ -1,6 +1,6 @@
 from typing import Optional, cast
 
-from graphql.type import GraphQLNamedType, GraphQLUnionType, GraphQLSchema
+from graphql3.type import GraphQLNamedType, GraphQLUnionType, GraphQLSchema
 
 from .types import Resolver, SchemaBindable
 

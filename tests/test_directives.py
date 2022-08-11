@@ -3,8 +3,8 @@ from functools import partial
 from typing import Union
 
 import pytest
-from graphql import default_field_resolver, graphql_sync
-from graphql.type import (
+from graphql3 import default_field_resolver, graphql_sync
+from graphql3.type import (
     GraphQLEnumType,
     GraphQLEnumValue,
     GraphQLField,

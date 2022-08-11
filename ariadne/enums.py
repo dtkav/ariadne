@@ -14,14 +14,14 @@ from typing import (
 from functools import reduce, singledispatch
 import operator
 
-from graphql.type import GraphQLEnumType, GraphQLNamedType, GraphQLSchema
-from graphql.language.ast import (
+from graphql3.type import GraphQLEnumType, GraphQLNamedType, GraphQLSchema
+from graphql3.language.ast import (
     EnumValueNode,
     InputValueDefinitionNode,
     ObjectValueNode,
 )
-from graphql.pyutils.undefined import Undefined
-from graphql.type.definition import (
+from graphql3.pyutils.undefined import Undefined
+from graphql3.type.definition import (
     GraphQLArgument,
     GraphQLField,
     GraphQLInputField,

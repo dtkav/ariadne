@@ -1,4 +1,4 @@
-from graphql import graphql_sync
+from graphql3 import graphql_sync
 
 from ariadne import MutationType, make_executable_schema
 

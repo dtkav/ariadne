@@ -13,10 +13,10 @@ from typing import (
     cast,
 )
 
-from graphql import is_named_type, value_from_ast_untyped
-from graphql.execution.values import get_argument_values
-from graphql.language import DirectiveLocation
-from graphql.type import (
+from graphql3 import is_named_type, value_from_ast_untyped
+from graphql3.execution.values import get_argument_values
+from graphql3.language import DirectiveLocation
+from graphql3.type import (
     GraphQLArgument,
     GraphQLDirective,
     GraphQLEnumType,

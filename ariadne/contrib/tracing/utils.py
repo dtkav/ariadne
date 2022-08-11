@@ -1,4 +1,4 @@
-from graphql import GraphQLResolveInfo, ResponsePath
+from graphql3 import GraphQLResolveInfo, ResponsePath
 
 from ...resolvers import is_default_resolver
 
@@ -42,4 +42,4 @@ def is_introspection_key(key: str):
         "__inputvalue",
         "__enumvalue",
         "__typekind",
-    ]  # from graphql.type.introspection.introspection_types
+    ]  # from graphql3.type.introspection.introspection_types

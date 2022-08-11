@@ -3,9 +3,9 @@
 from unittest.mock import Mock
 
 import pytest
-from graphql import graphql, graphql_sync
-from graphql.utilities import strip_ignored_characters as sic
-from graphql.utilities.print_schema import (
+from graphql3 import graphql, graphql_sync
+from graphql3.utilities import strip_ignored_characters as sic
+from graphql3.utilities.print_schema import (
     print_interface,
     print_object,
     print_union,

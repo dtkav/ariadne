@@ -1,6 +1,6 @@
 from typing import Optional
 
-from graphql.type import GraphQLSchema
+from graphql3.type import GraphQLSchema
 
 from ...objects import ObjectType
 from ...types import Resolver

@@ -2,7 +2,7 @@ import json
 from inspect import isawaitable
 from typing import Any, Optional, cast
 
-from graphql.execution import MiddlewareManager
+from graphql3.execution import MiddlewareManager
 from starlette.datastructures import UploadFile
 from starlette.requests import Request
 from starlette.responses import HTMLResponse, JSONResponse, PlainTextResponse, Response

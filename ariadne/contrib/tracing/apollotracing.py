@@ -2,7 +2,7 @@ from datetime import datetime
 from inspect import isawaitable
 from typing import Any, List, Optional, cast
 
-from graphql import GraphQLResolveInfo
+from graphql3 import GraphQLResolveInfo
 
 from ...types import ContextValue, Extension, Resolver
 from .utils import format_path, should_trace

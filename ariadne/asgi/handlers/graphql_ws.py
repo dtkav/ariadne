@@ -2,8 +2,8 @@ import asyncio
 from inspect import isawaitable
 from typing import Any, AsyncGenerator, Dict, List, cast
 
-from graphql import GraphQLError
-from graphql.language import OperationType
+from graphql3 import GraphQLError
+from graphql3.language import OperationType
 from starlette.types import Receive, Scope, Send
 from starlette.websockets import WebSocket, WebSocketDisconnect, WebSocketState
 

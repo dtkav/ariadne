@@ -3,7 +3,7 @@ from traceback import format_exception
 
 from typing import List, Optional, cast
 
-from graphql import GraphQLError
+from graphql3 import GraphQLError
 
 from .utils import unwrap_graphql_error
 

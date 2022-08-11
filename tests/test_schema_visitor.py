@@ -1,6 +1,6 @@
 from typing import List
 
-from graphql.type import GraphQLObjectType, GraphQLSchema
+from graphql3.type import GraphQLObjectType, GraphQLSchema
 
 from ariadne import make_executable_schema
 from ariadne.schema_visitor import SchemaVisitor, visit_schema

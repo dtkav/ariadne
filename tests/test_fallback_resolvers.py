@@ -1,5 +1,5 @@
 import pytest
-from graphql import graphql_sync, build_schema
+from graphql3 import graphql_sync, build_schema
 
 from ariadne import ObjectType, fallback_resolvers, snake_case_fallback_resolvers
 

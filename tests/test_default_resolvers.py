@@ -1,6 +1,6 @@
 from unittest.mock import Mock
 
-from graphql import default_field_resolver
+from graphql3 import default_field_resolver
 
 from ariadne.resolvers import is_default_resolver, resolve_to
 

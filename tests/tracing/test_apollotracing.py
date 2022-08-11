@@ -1,6 +1,6 @@
 import pytest
 from freezegun import freeze_time
-from graphql import get_introspection_query
+from graphql3 import get_introspection_query
 
 from ariadne import graphql
 from ariadne.contrib.tracing.apollotracing import ApolloTracingExtension

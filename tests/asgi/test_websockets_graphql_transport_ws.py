@@ -1,7 +1,7 @@
 # pylint: disable=not-context-manager
 import pytest
-from graphql import parse
-from graphql.language import OperationType
+from graphql3 import parse
+from graphql3.language import OperationType
 from starlette.testclient import TestClient
 from starlette.websockets import WebSocketDisconnect
 

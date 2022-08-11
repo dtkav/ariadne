@@ -14,15 +14,15 @@ from typing import (
 )
 from typing_extensions import Protocol, runtime_checkable
 
-from graphql import (
+from graphql3 import (
     DocumentNode,
     ExecutionResult,
     GraphQLError,
     GraphQLResolveInfo,
     GraphQLSchema,
 )
-from graphql.validation.rules import ASTValidationRule
-from graphql.execution import Middleware
+from graphql3.validation.rules import ASTValidationRule
+from graphql3.execution import Middleware
 
 from starlette.websockets import WebSocket
 

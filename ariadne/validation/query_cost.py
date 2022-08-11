@@ -2,15 +2,15 @@ from functools import reduce
 from operator import add, mul
 from typing import Any, Dict, List, Optional, Type, Union, cast
 
-from graphql import (
+from graphql3 import (
     GraphQLError,
     GraphQLInterfaceType,
     GraphQLObjectType,
     GraphQLSchema,
     get_named_type,
 )
-from graphql.execution.values import get_argument_values
-from graphql.language import (
+from graphql3.execution.values import get_argument_values
+from graphql3.language import (
     BooleanValueNode,
     FieldNode,
     FragmentDefinitionNode,
@@ -23,9 +23,9 @@ from graphql.language import (
     OperationType,
     StringValueNode,
 )
-from graphql.type import GraphQLFieldMap
-from graphql.validation import ValidationContext
-from graphql.validation.rules import ASTValidationRule, ValidationRule
+from graphql3.type import GraphQLFieldMap
+from graphql3.validation import ValidationContext
+from graphql3.validation.rules import ASTValidationRule, ValidationRule
 
 cost_directive = """
 directive @cost(complexity: Int, multipliers: [String!], useMultipliers: Boolean) on FIELD | FIELD_DEFINITION

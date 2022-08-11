@@ -1,6 +1,6 @@
 from typing import Optional, cast
 
-from graphql.type import (
+from graphql3.type import (
     GraphQLInterfaceType,
     GraphQLNamedType,
     GraphQLSchema,

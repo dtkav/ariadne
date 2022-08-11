@@ -2,8 +2,8 @@ import json
 from cgi import FieldStorage
 from typing import Any, Callable, List, Optional, Union
 
-from graphql import GraphQLError, GraphQLSchema
-from graphql.execution import Middleware, MiddlewareManager
+from graphql3 import GraphQLError, GraphQLSchema
+from graphql3.execution import Middleware, MiddlewareManager
 
 from .constants import (
     CONTENT_TYPE_JSON,

@@ -1,5 +1,5 @@
 import pytest
-from graphql.error import GraphQLSyntaxError
+from graphql3.error import GraphQLSyntaxError
 
 from ariadne import gql
 

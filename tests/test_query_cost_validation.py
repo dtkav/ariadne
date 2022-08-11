@@ -1,8 +1,8 @@
 import pytest
 
-from graphql import GraphQLError
-from graphql.language import parse
-from graphql.validation import validate
+from graphql3 import GraphQLError
+from graphql3.language import parse
+from graphql3.validation import validate
 
 from ariadne import make_executable_schema
 from ariadne.validation import cost_validator

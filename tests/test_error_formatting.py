@@ -2,7 +2,7 @@ from reprlib import repr  # pylint: disable=redefined-builtin
 from unittest.mock import Mock
 
 import pytest
-from graphql import graphql_sync
+from graphql3 import graphql_sync
 
 from ariadne import QueryType, make_executable_schema
 from ariadne.format_error import (

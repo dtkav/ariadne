@@ -1,8 +1,8 @@
 from datetime import date, datetime
 
 import pytest
-from graphql import build_schema, graphql_sync
-from graphql.language.ast import StringValueNode
+from graphql3 import build_schema, graphql_sync
+from graphql3.language.ast import StringValueNode
 
 from ariadne import QueryType, ScalarType, make_executable_schema
 

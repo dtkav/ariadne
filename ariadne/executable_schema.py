@@ -1,6 +1,6 @@
 from typing import Dict, List, Type, Union
 
-from graphql import (
+from graphql3 import (
     GraphQLSchema,
     assert_valid_schema,
     build_ast_schema,

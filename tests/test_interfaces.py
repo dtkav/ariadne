@@ -1,7 +1,7 @@
 from unittest.mock import Mock
 
 import pytest
-from graphql import build_schema, graphql_sync
+from graphql3 import build_schema, graphql_sync
 
 from ariadne import InterfaceType, ObjectType, QueryType, make_executable_schema
 

@@ -1,8 +1,8 @@
 import os
 from typing import Generator
 
-from graphql import parse
-from graphql.error import GraphQLSyntaxError
+from graphql3 import parse
+from graphql3.error import GraphQLSyntaxError
 
 from .exceptions import GraphQLFileSyntaxError
 

@@ -3,7 +3,7 @@ import io
 from unittest.mock import ANY, call
 
 import pytest
-from graphql import get_introspection_query
+from graphql3 import get_introspection_query
 from opentracing.ext import tags
 
 from ariadne import graphql_sync as graphql

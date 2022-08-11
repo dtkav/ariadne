@@ -4,8 +4,8 @@ import re
 from inspect import isawaitable
 from typing import Any, List
 
-from graphql.language import DirectiveNode
-from graphql.type import (
+from graphql3.language import DirectiveNode
+from graphql3.type import (
     GraphQLNamedType,
     GraphQLInputObjectType,
     GraphQLObjectType,

@@ -1,6 +1,6 @@
 from unittest.mock import Mock
 
-from graphql import graphql_sync
+from graphql3 import graphql_sync
 
 from ariadne import ObjectType, QueryType, make_executable_schema
 

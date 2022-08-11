@@ -1,8 +1,8 @@
 from collections.abc import Mapping
 from typing import Any
 
-from graphql import default_field_resolver
-from graphql.type import (
+from graphql3 import default_field_resolver
+from graphql3.type import (
     GraphQLField,
     GraphQLObjectType,
     GraphQLResolveInfo,

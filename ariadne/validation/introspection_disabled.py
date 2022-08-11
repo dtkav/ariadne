@@ -1,6 +1,6 @@
-from graphql import GraphQLError
-from graphql.language import FieldNode
-from graphql.validation import ValidationRule
+from graphql3 import GraphQLError
+from graphql3.language import FieldNode
+from graphql3.validation import ValidationRule
 
 from ..contrib.tracing.utils import is_introspection_key
 

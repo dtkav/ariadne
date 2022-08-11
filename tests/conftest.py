@@ -1,7 +1,7 @@
 from collections.abc import Mapping
 
 import pytest
-from graphql.validation.rules import ValidationRule
+from graphql3.validation.rules import ValidationRule
 
 from ariadne import (
     MutationType,

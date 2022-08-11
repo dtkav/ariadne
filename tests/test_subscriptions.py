@@ -1,5 +1,5 @@
 import pytest
-from graphql import build_schema
+from graphql3 import build_schema
 
 from ariadne import SubscriptionType
 

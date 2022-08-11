@@ -1,7 +1,7 @@
 from unittest.mock import ANY, call
 
 import pytest
-from graphql import get_introspection_query
+from graphql3 import get_introspection_query
 from opentracing.ext import tags
 from starlette.datastructures import UploadFile
 

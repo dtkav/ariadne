@@ -1,4 +1,4 @@
-from graphql import get_introspection_query, graphql_sync
+from graphql3 import get_introspection_query, graphql_sync
 
 from ariadne import make_executable_schema
 

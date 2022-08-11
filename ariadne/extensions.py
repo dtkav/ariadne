@@ -1,8 +1,8 @@
 from contextlib import contextmanager
 from typing import List, Optional
 
-from graphql import GraphQLError
-from graphql.execution import MiddlewareManager
+from graphql3 import GraphQLError
+from graphql3.execution import MiddlewareManager
 
 from .types import ContextValue, ExtensionList
 

@@ -1,10 +1,10 @@
 import re
 from typing import Dict, List, Type, Union, cast
 
-from graphql import extend_schema, parse
-from graphql.language import DocumentNode
-from graphql.language.ast import ObjectTypeDefinitionNode
-from graphql.type import (
+from graphql3 import extend_schema, parse
+from graphql3.language import DocumentNode
+from graphql3.language.ast import ObjectTypeDefinitionNode
+from graphql3.type import (
     GraphQLObjectType,
     GraphQLSchema,
     GraphQLUnionType,
