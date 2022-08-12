@@ -34,6 +34,7 @@ setup(
     include_package_data=True,
     install_requires=[
         "dtkav-graphql-core @ git+https://github.com/dtkav/graphql-core.git",
+        "starlette>0.17,<0.21",
         "typing_extensions>=3.6.0",
     ],
     extras_require={"asgi-file-uploads": ["python-multipart>=0.0.5"]},
